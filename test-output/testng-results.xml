@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="39669" started-at="2021-07-11T15:20:28Z" finished-at="2021-07-11T15:21:08Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="39669" started-at="2021-07-11T15:20:28Z" finished-at="2021-07-11T15:21:08Z">
+      <class name="tests.RegisterAnAccount">
+        <test-method status="PASS" signature="before()[pri:0, instance:tests.RegisterAnAccount@3e3047e6]" name="before" is-config="true" duration-ms="7285" started-at="2021-07-11T15:20:21Z" finished-at="2021-07-11T15:20:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="RegisterAnAccountSuccessfully()[pri:1, instance:tests.RegisterAnAccount@3e3047e6]" name="RegisterAnAccountSuccessfully" duration-ms="10598" started-at="2021-07-11T15:20:28Z" finished-at="2021-07-11T15:20:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterAnAccountSuccessfully -->
+        <test-method status="PASS" signature="ScreenhotFailure(org.testng.ITestResult)[pri:0, instance:tests.RegisterAnAccount@3e3047e6]" name="ScreenhotFailure" is-config="true" duration-ms="1" started-at="2021-07-11T15:20:39Z" finished-at="2021-07-11T15:20:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=RegisterAnAccountSuccessfully status=SUCCESS method=RegisterAnAccount.RegisterAnAccountSuccessfully()[pri:1, instance:tests.RegisterAnAccount@3e3047e6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScreenhotFailure -->
+        <test-method status="PASS" signature="AddItemFromSearch()[pri:2, instance:tests.RegisterAnAccount@3e3047e6]" name="AddItemFromSearch" duration-ms="4943" started-at="2021-07-11T15:20:39Z" finished-at="2021-07-11T15:20:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddItemFromSearch -->
+        <test-method status="PASS" signature="ScreenhotFailure(org.testng.ITestResult)[pri:0, instance:tests.RegisterAnAccount@3e3047e6]" name="ScreenhotFailure" is-config="true" duration-ms="0" started-at="2021-07-11T15:20:44Z" finished-at="2021-07-11T15:20:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddItemFromSearch status=SUCCESS method=RegisterAnAccount.AddItemFromSearch()[pri:2, instance:tests.RegisterAnAccount@3e3047e6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScreenhotFailure -->
+        <test-method status="PASS" signature="AddItemFromWomenCategory()[pri:3, instance:tests.RegisterAnAccount@3e3047e6]" name="AddItemFromWomenCategory" duration-ms="5640" started-at="2021-07-11T15:20:44Z" finished-at="2021-07-11T15:20:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddItemFromWomenCategory -->
+        <test-method status="PASS" signature="AddItemFromTshirts()[pri:4, instance:tests.RegisterAnAccount@3e3047e6]" name="AddItemFromTshirts" duration-ms="6009" started-at="2021-07-11T15:20:50Z" finished-at="2021-07-11T15:20:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddItemFromTshirts -->
+        <test-method status="PASS" signature="ScreenhotFailure(org.testng.ITestResult)[pri:0, instance:tests.RegisterAnAccount@3e3047e6]" name="ScreenhotFailure" is-config="true" duration-ms="0" started-at="2021-07-11T15:20:50Z" finished-at="2021-07-11T15:20:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddItemFromWomenCategory status=SUCCESS method=RegisterAnAccount.AddItemFromWomenCategory()[pri:3, instance:tests.RegisterAnAccount@3e3047e6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScreenhotFailure -->
+        <test-method status="PASS" signature="ScreenhotFailure(org.testng.ITestResult)[pri:0, instance:tests.RegisterAnAccount@3e3047e6]" name="ScreenhotFailure" is-config="true" duration-ms="0" started-at="2021-07-11T15:20:56Z" finished-at="2021-07-11T15:20:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddItemFromTshirts status=SUCCESS method=RegisterAnAccount.AddItemFromTshirts()[pri:4, instance:tests.RegisterAnAccount@3e3047e6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScreenhotFailure -->
+        <test-method status="PASS" signature="verifyItemIsDeleted()[pri:4, instance:tests.RegisterAnAccount@3e3047e6]" name="verifyItemIsDeleted" duration-ms="5076" started-at="2021-07-11T15:20:56Z" finished-at="2021-07-11T15:21:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyItemIsDeleted -->
+        <test-method status="PASS" signature="ScreenhotFailure(org.testng.ITestResult)[pri:0, instance:tests.RegisterAnAccount@3e3047e6]" name="ScreenhotFailure" is-config="true" duration-ms="0" started-at="2021-07-11T15:21:01Z" finished-at="2021-07-11T15:21:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyItemIsDeleted status=SUCCESS method=RegisterAnAccount.verifyItemIsDeleted()[pri:4, instance:tests.RegisterAnAccount@3e3047e6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScreenhotFailure -->
+        <test-method status="PASS" signature="verifyUserCanCheckout()[pri:5, instance:tests.RegisterAnAccount@3e3047e6]" name="verifyUserCanCheckout" duration-ms="7385" started-at="2021-07-11T15:21:01Z" finished-at="2021-07-11T15:21:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserCanCheckout -->
+        <test-method status="PASS" signature="ScreenhotFailure(org.testng.ITestResult)[pri:0, instance:tests.RegisterAnAccount@3e3047e6]" name="ScreenhotFailure" is-config="true" duration-ms="0" started-at="2021-07-11T15:21:08Z" finished-at="2021-07-11T15:21:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyUserCanCheckout status=SUCCESS method=RegisterAnAccount.verifyUserCanCheckout()[pri:5, instance:tests.RegisterAnAccount@3e3047e6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScreenhotFailure -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:tests.RegisterAnAccount@3e3047e6]" name="quitBrowser" is-config="true" duration-ms="1622" started-at="2021-07-11T15:21:08Z" finished-at="2021-07-11T15:21:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- tests.RegisterAnAccount -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
