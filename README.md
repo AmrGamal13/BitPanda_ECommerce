@@ -40,6 +40,17 @@ _________
 #### tests Package:
 * Contains test classes that are used for executing the test methods inside
 
+#### RegisterAnAccount Class:
+* Test class conntains all the test methods (test cases) with logging of every step , failure , success
+* contains 4 test methods :
+- Register An Account
+- Add Item from Search
+- Add Item from woman category
+- Add Item from T-Shirts section
+- Verify Item Is Deleted
+- Verify User Can Checkout
+
+
 #### TestBase:
 * Contains the base class for defining which env I am testing against, browsers I am testing against and which variable I am calling such as ***Url***
 _________
@@ -58,7 +69,7 @@ _________
 
 * Contains the configuration of the extent report that will be published after the automation run
 _________
-### 4- Test Report
+### 5- Generating Test Report
 
 * Automation test report will be published autonatically after executing all the test cases inside (RegisterAnAccount) Test class . also that html report can be found in the root of the project under (Report.html)
 * Also the screenshots of the failures will be saved inside (ScreenShot) folder
