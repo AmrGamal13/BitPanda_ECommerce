@@ -21,7 +21,7 @@ import pages.ShippingPage;
 import utilities.Helper;
 import utilities.readprop;
 
-public class RegisterAnAccount extends TestBase {
+public class RegisterAnAccountTest extends TestBase {
 
 	LoginPage loginOb;
 	HomePage homeObj ; 
