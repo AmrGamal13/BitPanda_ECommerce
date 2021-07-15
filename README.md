@@ -1,17 +1,16 @@
 # BitPanda_ECommerce Test automation Framework
 
-Selenium Framework Project using Java-Maven - TestNG- POM
 
-
-And we are using BDD and DDT Frameworks in our project
+We are using Selenium Hybrid Frameworks in the project
 
 #Tech Stach:
 - JAVA
 - MAVEN
 - TESTNG
-- BDD
-- DDT
-- Headless Testing using PhantomJS & Chrome Headless
+- ExtentReport
+- DDT (from properties files & Excel Sheet)
+- Support all the kind of browsers
+- Running over GitLab CI/CD
 
 
 ## Getting started
@@ -78,3 +77,8 @@ _________
 ```
 $ mvn clean test
 ```
+_________
+### 6- Running over CI/CD Tool
+
+* Please refer to the below link which contains the same project running over Gitlab CI/CD and contains two stages (Build & Test)
+https://gitlab.com/adelgamalmostafa/bitpandaecommerceautomation
