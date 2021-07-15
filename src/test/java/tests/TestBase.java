@@ -50,6 +50,8 @@ public class TestBase {
 				ChromeOptions capability = new ChromeOptions();
 				capability.setCapability(CapabilityType.ACCEPT_SSL_CERTS, true);
 				capability.setCapability(CapabilityType.ACCEPT_INSECURE_CERTS,true);
+				capability.addArguments("--no-sandbox");
+				capability.addArguments("--disable-dev-shm-usage");
 				driver =  new ChromeDriver(capability);
 			}
 
