@@ -82,3 +82,10 @@ _________
 
 * Please refer to the below link which contains the same project running over Gitlab CI/CD and contains two stages (Build & Test)
 https://gitlab.com/adelgamalmostafa/bitpandaecommerceautomation
+
+##### 7-Running oer Azure Pipeline:
+
+* <img width="1645" alt="Screen Shot 2021-07-16 at 10 51 53 PM" src="https://user-images.githubusercontent.com/66884373/126007282-d75dce70-701e-4888-a4fb-5cdf1150f7b6.png">
+* <img width="1680" alt="Screen Shot 2021-07-16 at 10 53 29 PM" src="https://user-images.githubusercontent.com/66884373/126007407-061c7812-c768-463e-bcfc-079f47bf945a.png">
+* <img width="1656" alt="Screen Shot 2021-07-16 at 10 54 45 PM" src="https://user-images.githubusercontent.com/66884373/126007522-e049bf6d-471c-47ff-9afa-d1d3cfedb5ec.png">
+
